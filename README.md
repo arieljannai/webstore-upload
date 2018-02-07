@@ -19,7 +19,7 @@ Read more about great ability to automate this task here: [Chrome Web Store Publ
 ```js
 
 // Promise api
-var webstore_upload = require('webstore_upload');
+var webstore_upload = require('webstore-upload');
 
 webstore_upload(uploadOptions, loggerFn)
 .then(function(result) {
@@ -33,7 +33,7 @@ webstore_upload(uploadOptions, loggerFn)
 
 
 // Deprecated callback api - meanwhile it's here for compatability and whoever is already depend on it.
-var webstore_upload = require('webstore_upload/deprecated');
+var webstore_upload = require('webstore-upload/deprecated');
 
 webstore_upload(uploadOptions, function(result) {
     console.log('complete!');

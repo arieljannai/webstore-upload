@@ -1,6 +1,6 @@
 {
   "name": "webstore-upload",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Automatically upload new versions of Chrome Extensions or Apps to the Chrome Webstore - integrated in your node project!",
   "repository": "https://github.com/arieljannai/webstore-upload.git",
   "author": {
